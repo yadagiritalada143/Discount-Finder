@@ -1,0 +1,109 @@
+.main-page-head {
+    background-color: darkorange;
+    height: 400px;
+}
+
+.banner-search-location {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+}
+
+.input-group-text {
+    border-radius: unset !important;
+}
+
+.form-control {
+    border-radius: unset !important;
+}
+
+.banner-categories {
+    margin-top: -60px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.banner-categories .text-center{
+    margin-right: 25px;
+}
+
+.real_estate_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.img-thumbnail {
+    box-shadow: 0px 0px 10px 5px rgba(148, 148, 148, 1);
+    border-radius: 50%;
+    padding: 15px;
+    width: 100px;
+}
+
+.text-center label {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.delivery_bike_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.home_services_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.beauty_spa_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.face_and_skin_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.hair_saloon_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.nail_art_banner {
+    display: grid;
+    margin: 10px;
+}
+
+.main-banner-container {
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.main-banner-container h3 {
+    font-weight: bold;
+}
+
+.banner-row {
+    overflow-x: scroll;
+    scrollbar-width: none
+}
+
+.banner-box {
+    background-color: white;
+    margin-right: 20px;
+}
+
+.banner-text-area {
+    padding: 10px;
+}
+
+/*************************************** Utils ****************************************/
+a{
+    text-decoration: none;
+    color: black;
+}
