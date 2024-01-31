@@ -4,28 +4,26 @@ import career from '../Components/Assets/TilesMenuIcons/career.png';
 import developer_area from '../Components/Assets/TilesMenuIcons/developer_area.png';
 
 const TilesMenu = () => {
-  return (
-    <div className="d-flex justify-content-center">
-        <div className='p-3 justify-content-center'>
-            <img className="rounded img-thumbnail" src={help_circle} alt="help_circle"/>
-            <p>Help Center</p>
-        </div>
-        <div className='p-3'>
-            <img className="rounded img-thumbnail" src={blog} alt="blog"/>
-            <p className='justify-content-center'>Blog</p>
-        </div>
-        <div className='p-3'>
-            <div>
-                <img className="rounded img-thumbnail" src={career} alt="career"/>
+    return (
+        <div className="d-flex justify-content-center col-12 mt-5 mb-5">
+            <div className='col-2 tile-box'>
+                <img className="rounded " width={'50%'} src={help_circle} alt="help_circle" />
+                <p className='mt-3 mb-0'>Help Center</p>
             </div>
-            <p className='justify-content-center'>Career</p>
+            <div className='col-2 tile-box'>
+                <img className="rounded " width={'50%'} src={blog} alt="blog" />
+                <p className='mt-3 mb-0'>Blog</p>
+            </div>
+            <div className='col-2 tile-box'>
+                <img className="rounded " width={'50%'} src={career} alt="career" />
+                <p className='mt-3 mb-0'>Career</p>
+            </div>
+            <div className='col-2 tile-box'>
+                <img className="rounded " width={'50%'} src={developer_area} alt="developer_area" />
+                <p className='mt-3 mb-0'>Developer Area</p>
+            </div>
         </div>
-        <div className='p-3'>
-            <img className="rounded img-thumbnail" src={developer_area} alt="developer_area"/>
-            <p className='justify-content-center'>Developer Area</p>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default TilesMenu;
