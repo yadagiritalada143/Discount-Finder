@@ -15,7 +15,7 @@ const Footer = () => {
                             <p>DISCOUNT FINDER</p>
                         </div>
                         <div className="fs-6">
-                            <p>Experience the future of e-commerce design with SHOPR</p>
+                            <p>Experience the future of e-commerce design with SHOPR App</p>
                         </div>
                         <div className="d-flex">
                             <img src={facebook} alt="facbook_icon" className="mx-1"></img>
