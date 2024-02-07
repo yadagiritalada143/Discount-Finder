@@ -1,6 +1,6 @@
 import '../Styles/Footer.css';
 import facebook from '../Components/Assets/Branding/facebook.png';
-import instagram from '../Components/Assets/Branding/Instagram.png';
+import instagram from '../Components/Assets/Branding/instagram.png';
 import twitter from '../Components/Assets/Branding/twitter.png';
 import email from '../Components/Assets/Branding/email.png';
 
