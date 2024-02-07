@@ -1,5 +1,5 @@
 .main-page-head {
-    background-color: darkorange;
+    background-color: #000;
     height: 400px;
 }
 
@@ -91,7 +91,7 @@
 
 .banner-row {
     overflow-x: scroll;
-    scrollbar-width: none
+    scrollbar-width: none;
 }
 
 .banner-box {
@@ -109,6 +109,15 @@
     margin: 30px;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 1px rgb(198, 198, 198);
+}
+
+.search_place {
+    width: 220%;
+}
+
+.sign-in-up-btn {
+    background-color: darkorange;
+    color: white;
 }
 
 /*************************************** Utils ****************************************/

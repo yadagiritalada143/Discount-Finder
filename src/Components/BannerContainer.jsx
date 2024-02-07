@@ -24,8 +24,8 @@ const BannerContainer = ({ title, postText, banners, isGrey }) => {
                     
                     return (
                         <div className="banner-box col-4" key={banner.id}>
-                            <img src={banner.image} className="col-12" />
-                            <div>
+                            <img src={banner.image} className="col-12" style={{ maxHeight:200 }}/>
+                            <div className="p-3">
                                 {
                                     banner.rating && 
                                     <div>{...getRating(banner.rating)}</div>

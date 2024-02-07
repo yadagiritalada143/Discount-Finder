@@ -15,7 +15,7 @@ const AllCategories = () => {
                 <div className="col-2">Bus</div>
                 <div className="col-2">Education</div>
                 <div className="col-2">Hotel</div>
-                <div className="col-3">kitchen Appliances</div>
+                <div className="col-3">Kitchen Appliances</div>
             </div>
             <div className="row fw-bold p-3 fs-6">
                 <div className="col-2">OTT</div>

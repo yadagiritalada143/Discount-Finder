@@ -33,7 +33,7 @@ const Navbar = () => {
             <li onClick={() => {setMenu("help")}}><Link to='/help'>HELP</Link>{menu === 'help' ? <hr /> : <></>}</li>
         </ul>
         <div className="signinup-button">
-            <button type="button" className="btn btn-dark">Sign in/Up</button>
+            <button type="button" className="btn sign-in-up-btn">Sign In/Up</button>
         </div>
     </div>
   )

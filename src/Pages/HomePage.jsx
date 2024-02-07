@@ -12,6 +12,7 @@ import nail_art from '../Components/Assets/nail_art.png';
 import BannerContainer from '../Components/BannerContainer';
 import PromoteMobileApp from '../Components/PromoteMobileApp';
 import TilesMenu from '../Components/TilesMenu';
+import VideoContent from '../Components/VideoContent';
 import AllCategories from '../Components/AllCategories';
 import Footer from '../Components/Footer';
 
@@ -33,7 +34,7 @@ const HomePage = () => {
               <span className="input-group-text">
                 <img src={search_image} alt="Location_Symbol"></img>
               </span>
-              <input type="text" className="form-control" id="floatingInputGroup1" placeholder="Search for cusinies, places and more..." />
+              <input type="text" className="form-control search_place" id="floatingInputGroup1" placeholder="Search for cusinies, places and more..." />
             </div>
           </div>
         </div>
@@ -83,6 +84,10 @@ const HomePage = () => {
 
       <div>
         <TilesMenu />
+      </div>
+
+      <div>
+        <VideoContent />
       </div>
 
       <div>
